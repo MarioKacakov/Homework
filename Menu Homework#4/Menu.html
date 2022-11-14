@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Menu</title>
+</head>
+    <body>
+        <form style="width:17cm;">
+            <Fieldset style="background-color:bisque ;">
+
+                <h1 style="color: coral;">Mario's Restaraunt <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" height="40" alt="Restoraunt"></h1>
+                <h4>Monday - Sunday 12PM - 23PM</h4>
+                <p>Includes - Starters, Salads, Main Courses, Desserts and Drinks.</p>
+                <p><b>Order information</b></p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="lastname">&nbsp; Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+                <p>Pick-up Details</p>
+                <input type="radio" name="order" id="restaraunt">
+                <label for="restaraunt">Restaraunt</label>
+                <br>
+                <input type="radio" name="order" id="to-go">
+                <label for="to-go">Delivery (5$)</label>
+                <input style="width:5cm ;" type="text" name="to-go" id="to-go" placeholder="enter adress for delivery">  
+                <label for="number">Phone Number:</label>
+                <input type="text" name="" id="number" placeholder="+389">
+            </Fieldset> 
+
+<!--Starters-->
+            <fieldset style="background-color:bisque ;">
+                <legend>Starters</legend><img src="https://cdn-icons-png.flaticon.com/512/1706/1706549.png" height="40" alt="Starter Foods">
+                <br> <br>
+                <input type="checkbox" name="" id="tomatosoup">
+                <label for="tomatosoup">Tomato Soup <s style="color:crimson ;">10$</s> <b>7.50$</b></label>
+                <br>
+                <input type="checkbox" name="" id="chickensoup">
+                <label for="chickensoup">Chicken Soup 10$</label>
+                <br>
+                <input type="checkbox" name="" id="crispycorn">
+                <label for="crispycorn">Crispy Corn 4.50$</label>
+            </fieldset>
+<!--Salads-->
+            <fieldset style="background-color:bisque ;">
+
+                <legend>Salads</legend> <img src="https://cdn-icons-png.flaticon.com/512/1625/1625042.png" height="40" alt="Salads">
+                <br> <br>
+                <input type="checkbox" name="" id="guacamolesalad">
+                <label for="guacamolesalad">Guacamole Salad 10$</label>
+                <br>
+                <input type="checkbox" name="" id="chickensalad">
+                <label for="chickensalad">Chicken Salad <s style="color:crimson ;">10$</s> <b>7.50$</b></label>
+            </fieldset>
+
+            <fieldset style="background-color:bisque ;">
+                <legend>Main Courses</legend><img src="https://cdn-icons-png.flaticon.com/512/3246/3246722.png" height="40" alt="Main Courses">
+                <br>
+                <br>
+                <input type="checkbox" name="" id="fishpotatos">
+                <label for="fishpotatos">Grilled Fish and Potatoes 20$</label>
+                <br>
+                <input type="checkbox" name="" id="chickenrice">
+                <label for="chickenrice">Chicken and Rice 18$</label>
+                <br>
+                <input type="checkbox" name="" id="turkeyham">
+                <label for="turkeyham">Turkey and Ham 22$</label>
+                <br>
+                <input type="checkbox" name="" id="pasta">
+                <label for="pasta">Vegetable Pasta 25$</label>
+                <br>
+                <br>
+                <fieldset style="border-color:white ;">
+                <legend>Extras</legend>
+                <label for="dessert">Desserts</label>
+                <select name="" id="dessert">
+                <option value="" disabled selected hidden>Choose</option>
+                <option value="FC">Fruit And Cream 5$</option>
+                <option value="IC">Ice Cream 5$</option>
+                <option value="CC">Chocolate Cake 5$</option>
+                <option value="SC">Strawberry Cake 5$</option>
+                <option value="Ap">Apple Pie 5$</option>
+                </select>
+                &nbsp; &nbsp; &nbsp; &nbsp; 
+                <label for="drinks">Drinks</label>
+                <select name="" id="drinks">
+                <option value="" disabled selected hidden>Choose</option>
+                <option value="">Mineral Water 2$</option>
+                <option value="">Fresh Fruit Juice 2$</option>
+                <option value="">Coffee 2$</option>
+                <option value="">Tea 2$</option>
+                <option value="">Wines 2$</option>
+                </select>
+
+            </fieldset>
+                <br>
+                <input type="submit" name="" id="" value="Order">
+                &nbsp; &nbsp;
+                <input type="reset" name="" id="" value="Cancel Order">
+            </fieldset>
+        </form>
+            <div style="position:absolute; top: 0cm; right: 10cm; left: 17.5cm;">
+                <img src="/Images/organic-flat-rustic-restaurant-menu-template-with-photo_52683-62703.jpg copy.png" height="920" width="800" alt="menu">
+            </div>
+    </body>
+</html>
