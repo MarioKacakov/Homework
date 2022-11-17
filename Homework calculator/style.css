@@ -1,0 +1,12 @@
+table, th {
+    border:1px solid black; margin: 30px; height: 10cm; text-decoration: solid;
+  }
+  .emptytd {size: 4px;}
+  .text {text-align: center;}
+  .square {
+    border:1px solid black;
+  }
+  .silver {background-color: rgba(169, 169, 169, 0.482);}
+  .silvercell {background-color: rgba(231, 229, 229, 0.561) solid;}
+  .button {width:1.5cm; height: 1.2cm;}
+  .heigh {height: 1.3cm;}
