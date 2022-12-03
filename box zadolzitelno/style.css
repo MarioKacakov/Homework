@@ -1,0 +1,68 @@
+.box {
+    margin: auto;
+    height: 30rem;
+    width: 30rem;
+    border: 0.4rem solid #3b3b3b;
+    position: relative;
+    background-color: #3b3b3b;
+}
+
+.box1 {
+    position: relative;
+    background-color: red;
+    width: 20rem;
+    height: 20rem;
+    float: right;
+    border-left: 0.5rem solid #3b3b3b;
+    border-bottom: 0.5rem solid #3b3b3b;
+}
+
+.box2 {
+    width: 9.5rem;
+    height: 7rem;
+    background-color: bisque;
+    border-bottom: 1rem solid #3b3b3b;
+    float: left;
+
+}
+
+.box3 {
+    width: 9.5rem;
+    height: 12rem;
+    background-color: bisque;
+    border-bottom: 0.5rem solid #3b3b3b;
+    float: left;
+}
+
+.box4 {
+    width: 9.5rem;
+    height: 9.5rem;
+    background-color: rgb(49, 49, 234);
+    border-right: 0.5rem solid #3b3b3b;
+    float: left;
+}
+
+
+.box5 {
+    width: 17.5rem;
+    height: 9.5rem;
+    background-color: bisque;
+    float: left;
+    border-right: 0.5rem solid #3b3b3b;
+
+}
+
+.box6 {
+    width: 2rem;
+    height: 4.5rem;
+    background-color: bisque;
+    float: right;
+    border-bottom: 1rem solid #3b3b3b;
+}
+
+.box7 {
+    width: 2rem;
+    height: 4rem;
+    background-color: yellow;
+    float: right;
+}
